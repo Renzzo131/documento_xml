@@ -62,7 +62,7 @@
             <modulo2>
                 <nombre>DESARROLLO DE APLICACIONES WEB</nombre>
                 <periodos>
-                    <p1>
+                    <p3>
                         <nombre>III</nombre>
                         <unidades_didacticas>
                             <ud1>
@@ -81,8 +81,8 @@
                                 <nombre>INGLÉS PARA LA COMUNICACIÓN ORAL</nombre>
                             </ud5>
                         </unidades_didacticas>
-                    </p1>
-                    <p2>
+                    </p3>
+                    <p4>
                         <nombre>IV</nombre>
                         <unidades_didacticas>
                             <ud1>
@@ -104,13 +104,13 @@
                                 <nombre>COMNPORTAMIENTO ÉTICO</nombre>
                             </ud6>
                         </unidades_didacticas>
-                    </p2>
+                    </p4>
                 </periodos>
             </modulo2>
             <modulo3>
                 <nombre>DISEÑO DE SERVICIOS WEB</nombre>
                 <periodos>
-                    <p1>
+                    <p5>
                         <nombre>V</nombre>
                         <unidades_didacticas>
                             <ud1>
@@ -135,8 +135,8 @@
                                 <nombre>OPORTUNIDADES DE NEGOCIO</nombre>
                             </ud7>
                         </unidades_didacticas>
-                    </p1>
-                    <p2>
+                    </p5>
+                    <p6>
                         <nombre>VI</nombre>
                         <unidades_didacticas>
                             <ud1>
@@ -155,7 +155,7 @@
                                 <nombre>PLAN DE NEGOCIOS</nombre>
                             </ud5>
                         </unidades_didacticas>
-                    </p2>
+                    </p6>
                 </periodos>
             </modulo3>
         </modulos>
