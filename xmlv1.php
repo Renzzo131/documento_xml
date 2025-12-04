@@ -101,19 +101,23 @@ $pe1['modulos'] = [$m1, $m2, $m3];
 
 $pe2 = array();
 $pe2['nombre'] = 'ENFERMERÍA TÉCNICA';
-$pe2['modulos'] = [$m1, $m2, $m3];
+$pe2['modulos'] = [];
+
 
 $pe3 = array();
 $pe3['nombre'] = 'INDUSTRIAS DE ALIMENTOS Y BEBIDAS';
-$pe3['modulos'] = [$m1, $m2, $m3];
+$pe3['modulos'] = [];
+
 
 $pe4 = array();
 $pe4['nombre'] = 'MECATRÓNICA AUTOMOTRIZ';
-$pe4['modulos'] = [$m1, $m2, $m3];
+$pe4['modulos'] = [];
+
 
 $pe5 = array();
 $pe5['nombre'] = 'PRODUCCIÓN AGROPECUARIA';
-$pe5['modulos'] = [$m1, $m2, $m3];
+$pe5['modulos'] = [];
+
 
 $ies['nombre'] = 'IES Pub HUANTA';
 $ies['programas_de_estudios'] = [$pe1, $pe2, $pe3, $pe4, $pe5];
