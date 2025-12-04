@@ -100,9 +100,20 @@ $pe1['nombre'] = 'DISEÑO Y PROGRAMACIÓN WEB';
 $pe1['modulos'] = [$m1, $m2, $m3];
 
 $pe2 = array();
+$pe2['nombre'] = 'ENFERMERÍA TÉCNICA';
+$pe2['modulos'] = [$m1, $m2, $m3];
+
 $pe3 = array();
+$pe3['nombre'] = 'INDUSTRIAS DE ALIMENTOS Y BEBIDAS';
+$pe3['modulos'] = [$m1, $m2, $m3];
+
 $pe4 = array();
+$pe4['nombre'] = 'MECATRÓNICA AUTOMOTRIZ';
+$pe4['modulos'] = [$m1, $m2, $m3];
+
 $pe5 = array();
+$pe5['nombre'] = 'PRODUCCIÓN AGROPECUARIA';
+$pe5['modulos'] = [$m1, $m2, $m3];
 
 $ies['nombre'] = 'IES Pub HUANTA';
 $ies['programas_de_estudios'] = [$pe1, $pe2, $pe3, $pe4, $pe5];
@@ -116,10 +127,31 @@ $xml->appendChild($et1);
 
 $nombre_ies = $xml->createElement('nombre', $ies['nombre']);
 $programas_ies = $xml->createElement('programas_de_estudios');
+$et1->appendChild($nombre_ies);
+$et1->appendChild($programas_ies);
 foreach ($ies['programas_de_estudios'] as $indice => $PEs) {
-    $num_pe = $xml->createElement("pe".$indice+1);
-    $nombre_pe = $xml->createElement('nombre', $PEs['nombre']);
-    $programas_ies -> appendChild($nombre_pe);
+    $num_pe = $xml->createElement("pe".($indice+1));
+    $nombre_pe = $xml->createElement("nombre", $PEs['nombre']);
+    foreach ($PEs['modulos'] as $indice_modulo => $Modulo) {
+        $num_mod = $xml->createElement("mod".($indice_modulo+1));
+        $nom_mod = $xml->createElement("nombre", $Modulo['nombre']);
+        foreach ($Modulo['periodos'] as $indice_periodo => $Periodo) {
+            $num_per = $xml->createElement("per".($indice_periodo+1));
+            $nom_per = $xml->createElement("nombre", $Periodo['nombre']);
+            $uds = $xml->createElement("unidades_didacticas");
+            foreach ($Periodo['unidades_didacticas'] as $indice_ud => $Ud) {
+                $num_ud = $xml->createElement("ud".($indice_ud+1));
+                $nom_ud = $xml->createElement("nombre", $Ud);
+                $num_ud->appendChild($nom_ud);
+                $uds->appendChild($num_ud);
+            }
+            $num_per->appendChild($nom_per);
+            $num_per->appendChild($uds);
+            $num_mod->appendChild($num_per);
+        }
+        $num_mod->appendChild($nom_mod);
+        $num_pe->appendChild($num_mod);
+    }
     $num_pe->appendChild($nombre_pe);
     $programas_ies -> appendChild($num_pe);
 }
