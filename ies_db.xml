@@ -1,0 +1,3807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programas_estudio>
+  <pe_1>
+    <codigo>DPW</codigo>
+    <tipo>Modular</tipo>
+    <nombre>DISEÑO Y PROGRAMACIÓN WEB</nombre>
+    <planes_estudio>
+      <plan_1>
+        <nombre>2021</nombre>
+        <resolucion>RD. 095-8566</resolucion>
+        <fecha>2025-08-11 08:58:16</fecha>
+        <modulos_formativos>
+          <modulo_1>
+            <descripcion>ANALISIS Y DISEÑO DE SISTEMAS WEB</descripcion>
+            <numero_modulo>1</numero_modulo>
+            <periodos>
+              <periodo_1>
+                <descripcion>I</descripcion>
+                <unidades_didacticas>
+                  <ud_1>
+                    <nombre>FUNDAMENTOS DE PROGRAMACIÓN</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_1>
+                  <ud_2>
+                    <nombre>REDES E INTERNET</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_2>
+                  <ud_3>
+                    <nombre>ANÁLISIS Y DISEÑO DE SISTEMAS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_3>
+                  <ud_4>
+                    <nombre>INTRODUCCIÓN DE BASE DE DATOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_4>
+                  <ud_5>
+                    <nombre>ARQUITECTURA DE COMPUTADORAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_5>
+                  <ud_6>
+                    <nombre>COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_6>
+                  <ud_7>
+                    <nombre>APLICACIONES EN INTERNET </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_7>
+                </unidades_didacticas>
+              </periodo_1>
+              <periodo_2>
+                <descripcion>II</descripcion>
+                <unidades_didacticas>
+                  <ud_8>
+                    <nombre>METODOLOGÍA DE DESARROLLO DE SOFTWARE</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_8>
+                  <ud_9>
+                    <nombre>PROGRAMACIÓN ORIENTADA A OBJETOS</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_9>
+                  <ud_10>
+                    <nombre>ARQUITECTURA DE SERVIDORES WEB</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_10>
+                  <ud_11>
+                    <nombre>APLICACIONES SISTEMATIZADAS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_11>
+                  <ud_12>
+                    <nombre>TALLER DE BASE DE DATOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_12>
+                  <ud_13>
+                    <nombre>INTERPRETACIÓN Y PRODUCCIÓN DE TEXTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_13>
+                  <ud_14>
+                    <nombre>OFIMÁTICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_14>
+                </unidades_didacticas>
+              </periodo_2>
+            </periodos>
+          </modulo_1>
+          <modulo_2>
+            <descripcion>DESARROLLO DE APLICACIONES WEB</descripcion>
+            <numero_modulo>2</numero_modulo>
+            <periodos>
+              <periodo_3>
+                <descripcion>III</descripcion>
+                <unidades_didacticas>
+                  <ud_15>
+                    <nombre>ADMINISTRACIÓN DE BASE DE DATOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_15>
+                  <ud_16>
+                    <nombre>PROGRAMACIÓN DE APLICACIONES WEB</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_16>
+                  <ud_17>
+                    <nombre>DISEÑO DE INTERFACES WEB</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_17>
+                  <ud_18>
+                    <nombre>PRUEBAS DE SOFTWARE</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_18>
+                  <ud_23>
+                    <nombre>INGLÉS PARA LA COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_23>
+                </unidades_didacticas>
+              </periodo_3>
+              <periodo_4>
+                <descripcion>IV</descripcion>
+                <unidades_didacticas>
+                  <ud_19>
+                    <nombre>DESARROLLO DE ENTORNOS WEB</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_19>
+                  <ud_20>
+                    <nombre>PROGRAMACIÓN DE SOLUCIONES WEB</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_20>
+                  <ud_21>
+                    <nombre>PROYECTOS DE SOFTWARE</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_21>
+                  <ud_22>
+                    <nombre>SEGURIDAD EN APLICACIONES WEB</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_22>
+                  <ud_24>
+                    <nombre>COMPRENSIÓN Y REDACCIÓN EN INGLÉS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_24>
+                  <ud_25>
+                    <nombre>COMPORTAMIENTO ÉTICO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_25>
+                </unidades_didacticas>
+              </periodo_4>
+            </periodos>
+          </modulo_2>
+          <modulo_3>
+            <descripcion>DISEÑO DE SERVICIOS WEB</descripcion>
+            <numero_modulo>3</numero_modulo>
+            <periodos>
+              <periodo_5>
+                <descripcion>V</descripcion>
+                <unidades_didacticas>
+                  <ud_26>
+                    <nombre>PROGRAMACIÓN DE APLICACIONES MÓVILES</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_26>
+                  <ud_27>
+                    <nombre>MARKETING DIGITAL</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_27>
+                  <ud_28>
+                    <nombre>DISEÑO DE SOLUCIONES WEB</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_28>
+                  <ud_29>
+                    <nombre>GESTIÓN Y ADMINISTRACIÓN DE SITIOS WEB</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_29>
+                  <ud_30>
+                    <nombre>DIAGRAMACIÓN DIGITAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_30>
+                  <ud_31>
+                    <nombre>SOLUCIÓN DE PROBLEMAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_31>
+                  <ud_32>
+                    <nombre>OPORTUNIDADES DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_32>
+                </unidades_didacticas>
+              </periodo_5>
+              <periodo_6>
+                <descripcion>VI</descripcion>
+                <unidades_didacticas>
+                  <ud_33>
+                    <nombre>PLATAFORMA DE SERVICIOS WEB</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_33>
+                  <ud_34>
+                    <nombre>ILUSTRACIÓN Y GRÁFICA DIGITAL</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_34>
+                  <ud_35>
+                    <nombre>ADMINISTRACIÓN DE SERVIDORES WEB</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_35>
+                  <ud_36>
+                    <nombre>COMERCIO ELECTRÓNICO</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_36>
+                  <ud_37>
+                    <nombre>PLAN DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_37>
+                </unidades_didacticas>
+              </periodo_6>
+            </periodos>
+          </modulo_3>
+        </modulos_formativos>
+      </plan_1>
+    </planes_estudio>
+  </pe_1>
+  <pe_2>
+    <codigo>ET</codigo>
+    <tipo>Modular</tipo>
+    <nombre>ENFERMERÍA TÉCNICA</nombre>
+    <planes_estudio>
+      <plan_2>
+        <nombre>2021</nombre>
+        <resolucion>RD. 095-8566</resolucion>
+        <fecha>2025-08-11 08:58:32</fecha>
+        <modulos_formativos>
+          <modulo_4>
+            <descripcion>ASISTENCIA EN PROMOCIÓN Y PREVENCIÓN DE LA SALUD</descripcion>
+            <numero_modulo>1</numero_modulo>
+            <periodos>
+              <periodo_7>
+                <descripcion>I</descripcion>
+                <unidades_didacticas>
+                  <ud_38>
+                    <nombre>SALUD COMUNITARIA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_38>
+                  <ud_39>
+                    <nombre>ATENCIÓN DE ENFERMERÍA A LA FAMILIA Y COMUNIDAD </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_39>
+                  <ud_40>
+                    <nombre>PROMOCIÓN DE LA SALUD</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_40>
+                  <ud_41>
+                    <nombre>EDUCACIÓN PARA LA SALUD</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_41>
+                  <ud_42>
+                    <nombre>ASISTENCIA DE ENFERMERÍA EN INMUNIZACIONES </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_42>
+                  <ud_43>
+                    <nombre>ATENCIÓN PARA LA PREVENCIÓN DE ENFERMEDADES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_43>
+                  <ud_44>
+                    <nombre>COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_44>
+                  <ud_45>
+                    <nombre>APLICACIONES EN INTERNET </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_45>
+                </unidades_didacticas>
+              </periodo_7>
+              <periodo_8>
+                <descripcion>II</descripcion>
+                <unidades_didacticas>
+                  <ud_46>
+                    <nombre>EVALUACIÓN DE LA INTERVENCIÓN DE ENFERMERÍA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_46>
+                  <ud_47>
+                    <nombre>EPIDEMIOLOGÍA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_47>
+                  <ud_48>
+                    <nombre>SALUD EN DESASTRES NATURALES  </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_48>
+                  <ud_49>
+                    <nombre>ACTIVIDADES DE ENFERMERÍA EN SALUD PÚBLICA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_49>
+                  <ud_50>
+                    <nombre>ANATOMÍA Y FISIOLOGÍA HUMANA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_50>
+                  <ud_51>
+                    <nombre>MATEMÁTICA APLICADA A LA ENFERMERÍA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_51>
+                  <ud_52>
+                    <nombre>TERMINOLOGIA EN SALUD HUMANA</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_52>
+                  <ud_53>
+                    <nombre>INTERPRETACIÓN Y PRODUCCIÓN DE TEXTOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_53>
+                  <ud_54>
+                    <nombre>OFIMÁTICA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>9</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_54>
+                </unidades_didacticas>
+              </periodo_8>
+            </periodos>
+          </modulo_4>
+          <modulo_5>
+            <descripcion>ASISTENCIA EN LA ATENCIÓN BÁSICA DE LA SALUD</descripcion>
+            <numero_modulo>2</numero_modulo>
+            <periodos>
+              <periodo_9>
+                <descripcion>III</descripcion>
+                <unidades_didacticas>
+                  <ud_55>
+                    <nombre>ASISTENCIA BÁSICA HOSPITALARIA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>4</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>9</horas_semana>
+                    <horas_semestre>144</horas_semestre>
+                  </ud_55>
+                  <ud_56>
+                    <nombre>ADMINISTRACION DE MEDICAMENTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_56>
+                  <ud_57>
+                    <nombre>DOCUMENTACION EN SALUD</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_57>
+                  <ud_58>
+                    <nombre>MICROBIOLOGÍA Y MUESTRAS BIOLOGICAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_58>
+                  <ud_59>
+                    <nombre>INGLÉS PARA LA COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_59>
+                  <ud_60>
+                    <nombre>QUECHUA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_60>
+                </unidades_didacticas>
+              </periodo_9>
+              <periodo_10>
+                <descripcion>IV</descripcion>
+                <unidades_didacticas>
+                  <ud_61>
+                    <nombre>ATENCIÓN DE ENFERMERÍA EN URGENCIAS Y EMERGENCIAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_61>
+                  <ud_62>
+                    <nombre>PROCEDIMIENTOS INVASIVOS, NO INVASIVOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>4</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>9</horas_semana>
+                    <horas_semestre>144</horas_semestre>
+                  </ud_62>
+                  <ud_63>
+                    <nombre>ESTADÍSTICA APLICADA A LA ENFERMERÍA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_63>
+                  <ud_64>
+                    <nombre>QUÍMICA APLICADA A LA ENFERMERÍA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_64>
+                  <ud_65>
+                    <nombre>COMPRENSIÓN Y REDACCIÓN EN INGLÉS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_65>
+                  <ud_66>
+                    <nombre>CULTURA AMBIENTAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_66>
+                </unidades_didacticas>
+              </periodo_10>
+            </periodos>
+          </modulo_5>
+          <modulo_6>
+            <descripcion>ASISTENCIA EN LA ATENCIÓN INTEGRAL EN SALUD</descripcion>
+            <numero_modulo>3</numero_modulo>
+            <periodos>
+              <periodo_11>
+                <descripcion>V</descripcion>
+                <unidades_didacticas>
+                  <ud_67>
+                    <nombre>SALUD MATERNO NEONATAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_67>
+                  <ud_68>
+                    <nombre>ATENCIÓN DEL NIÑO Y ADOLESCENTE</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_68>
+                  <ud_69>
+                    <nombre>ATENCIÓNAL USUARIO QUIRÚRGICO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_69>
+                  <ud_70>
+                    <nombre>ATENCIÓN DEL ADULTO Y ADULTO MAYOR </nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_70>
+                  <ud_71>
+                    <nombre>COMPORTAMIENTO ÉTICO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_71>
+                </unidades_didacticas>
+              </periodo_11>
+              <periodo_12>
+                <descripcion>VI</descripcion>
+                <unidades_didacticas>
+                  <ud_72>
+                    <nombre>MEDICINA ALTERNATIVA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>4</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>9</horas_semana>
+                    <horas_semestre>144</horas_semestre>
+                  </ud_72>
+                  <ud_73>
+                    <nombre>ATENCIÓN DE EN SALUD MENTAL </nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_73>
+                  <ud_74>
+                    <nombre>ATENCIÓN DEL PACIENTE EN ESTADO CRÍTICO</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_74>
+                  <ud_75>
+                    <nombre>SOLUCIÓN DE PROBLEMAS E INNOVACIÓN</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_75>
+                </unidades_didacticas>
+              </periodo_12>
+            </periodos>
+          </modulo_6>
+        </modulos_formativos>
+      </plan_2>
+      <plan_6>
+        <nombre>2025</nombre>
+        <resolucion>--</resolucion>
+        <fecha>2025-08-11 08:59:50</fecha>
+        <modulos_formativos>
+          <modulo_23>
+            <descripcion>ASISTENCIA EN PROMOCIÓN Y PREVENCIÓN DE LA SALUD</descripcion>
+            <numero_modulo>1</numero_modulo>
+            <periodos>
+              <periodo_37>
+                <descripcion>I</descripcion>
+                <unidades_didacticas>
+                  <ud_241>
+                    <nombre>SALUD COMUNITARIA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_241>
+                  <ud_242>
+                    <nombre>PROMOCIÓN DE LA SALUD</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_242>
+                  <ud_243>
+                    <nombre>EDUCACIÓN PARA LA SALUD</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_243>
+                  <ud_244>
+                    <nombre>ASISTENCIA EN INMUNIZACIONES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_244>
+                  <ud_245>
+                    <nombre> SEGURIDAD Y SALUD EN EL TRABAJO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_245>
+                  <ud_246>
+                    <nombre>COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_246>
+                  <ud_247>
+                    <nombre>APLICACIONES EN INTERNET </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_247>
+                </unidades_didacticas>
+              </periodo_37>
+              <periodo_38>
+                <descripcion>II</descripcion>
+                <unidades_didacticas>
+                  <ud_248>
+                    <nombre>EPIDEMIOLOGÍA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_248>
+                  <ud_249>
+                    <nombre>SALUD EN DESASTRES NATURALES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_249>
+                  <ud_250>
+                    <nombre>PREVENCION EN SALUD PUBLICA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_250>
+                  <ud_251>
+                    <nombre>ANATOMÍA Y FISIOLOGÍA HUMANA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_251>
+                  <ud_252>
+                    <nombre>FUNDAMENTOS DE BIOSEGURIDAD</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_252>
+                  <ud_253>
+                    <nombre>INTERPRETACIÓN Y PRODUCCIÓN TEXTOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_253>
+                  <ud_254>
+                    <nombre>OFIMÁTICA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_254>
+                </unidades_didacticas>
+              </periodo_38>
+            </periodos>
+          </modulo_23>
+          <modulo_24>
+            <descripcion>ASISTENCIA EN LA ATENCIÓN BÁSICA DE LA SALUD</descripcion>
+            <numero_modulo>2</numero_modulo>
+            <periodos>
+              <periodo_39>
+                <descripcion>III</descripcion>
+                <unidades_didacticas>
+                  <ud_255>
+                    <nombre>ASISTENCIA BÁSICA HOSPITALARIA	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>4</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>9</horas_semana>
+                    <horas_semestre>144</horas_semestre>
+                  </ud_255>
+                  <ud_256>
+                    <nombre>ADMINISTRACION DE MEDICAMENTOS	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_256>
+                  <ud_257>
+                    <nombre>DOCUMENTACION EN SALUD	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_257>
+                  <ud_258>
+                    <nombre>MICROBIOLOGÍA Y MUESTRAS BIOLOGICAS	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_258>
+                  <ud_259>
+                    <nombre>INGLÉS PARA LA COMUNICACIÓN ORAL	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_259>
+                  <ud_260>
+                    <nombre>COMUNICACIÓN EFECTIVA EN QUECHUA 	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_260>
+                </unidades_didacticas>
+              </periodo_39>
+              <periodo_40>
+                <descripcion>IV</descripcion>
+                <unidades_didacticas>
+                  <ud_261>
+                    <nombre>ATENCIÓN EN URGENCIAS Y EMERGENCIAS	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_261>
+                  <ud_262>
+                    <nombre>PROCEDIMIENTOS INVASIVOS Y NO INVASIVOS	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>4</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>9</horas_semana>
+                    <horas_semestre>144</horas_semestre>
+                  </ud_262>
+                  <ud_263>
+                    <nombre>BIOESTADISTICA EN SALUD 	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_263>
+                  <ud_264>
+                    <nombre>DIETAS Y NUTRICIÓN 	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_264>
+                  <ud_265>
+                    <nombre>COMPRENSIÓN Y REDACCIÓN EN INGLÉS	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_265>
+                  <ud_266>
+                    <nombre>MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE.	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_266>
+                </unidades_didacticas>
+              </periodo_40>
+            </periodos>
+          </modulo_24>
+          <modulo_25>
+            <descripcion>ASISTENCIA EN LA ATENCIÓN INTEGRAL EN SALUD</descripcion>
+            <numero_modulo>3</numero_modulo>
+            <periodos>
+              <periodo_41>
+                <descripcion>V</descripcion>
+                <unidades_didacticas>
+                  <ud_267>
+                    <nombre>SALUD MATERNO NEONATAL	</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_267>
+                  <ud_268>
+                    <nombre>ATENCIÓN DEL NIÑO Y ADOLESCENTE	</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_268>
+                  <ud_269>
+                    <nombre>ATENCIÓN AL USUARIO QUIRÚRGICO	</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_269>
+                  <ud_270>
+                    <nombre>ATENCIÓN DEL ADULTO Y ADULTO MAYOR 	</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_270>
+                  <ud_271>
+                    <nombre>TÉCNICAS DE RESOLUCIÓN DE CONFLICTOS	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_271>
+                  <ud_272>
+                    <nombre>COMPORTAMIENTO ÉTICO	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_272>
+                </unidades_didacticas>
+              </periodo_41>
+              <periodo_42>
+                <descripcion>VI</descripcion>
+                <unidades_didacticas>
+                  <ud_273>
+                    <nombre>MEDICINA ALTERNATIVA	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_273>
+                  <ud_274>
+                    <nombre>FISIOTERAPIA Y REHABILITACIÓN	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_274>
+                  <ud_275>
+                    <nombre> SALUD MENTAL	</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_275>
+                  <ud_276>
+                    <nombre>ATENCIÓN DEL PACIENTE EN ESTADO CRÍTICO	</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_276>
+                  <ud_277>
+                    <nombre>INNOVACIÓN TECNOLOGICA	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_277>
+                  <ud_278>
+                    <nombre>PLAN DE NEGOCIOS	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_278>
+                </unidades_didacticas>
+              </periodo_42>
+            </periodos>
+          </modulo_25>
+        </modulos_formativos>
+      </plan_6>
+    </planes_estudio>
+  </pe_2>
+  <pe_3>
+    <codigo>IA</codigo>
+    <tipo>Modular</tipo>
+    <nombre>INDUSTRIAS ALIMENTARIAS</nombre>
+    <planes_estudio>
+      <plan_3>
+        <nombre>2021</nombre>
+        <resolucion>RD. 095-8566</resolucion>
+        <fecha>2025-08-11 08:58:48</fecha>
+        <modulos_formativos>
+          <modulo_7>
+            <descripcion>MANEJO DE LA MATERIA PRIMA</descripcion>
+            <numero_modulo>1</numero_modulo>
+            <periodos>
+              <periodo_13>
+                <descripcion>I</descripcion>
+                <unidades_didacticas>
+                  <ud_76>
+                    <nombre>RECEPCIÓN DE MATERIA PRIMA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_76>
+                  <ud_77>
+                    <nombre>ALMACENAMIENTO DE MATERIAS PRIMAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_77>
+                  <ud_78>
+                    <nombre>COMPOSICION DE LOS ALIMENTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_78>
+                  <ud_79>
+                    <nombre>MAQUINARIA Y EQUIPOS EN LA RECEPCIÓN Y CLASIFICACIÓN DE LA MATERIA PRIMA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_79>
+                  <ud_80>
+                    <nombre>OPERACIONES DE SELECCIÓN Y CLASIFICACIÓN</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_80>
+                  <ud_81>
+                    <nombre>OPERACIONES DE ACONDICIONAMIENTO DE LA MATERIA PRIMA </nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_81>
+                  <ud_82>
+                    <nombre>FUNDAMENTOS DE LAS OPERACIONES PRELIMINARES Y PRE TRATAMIENTO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_82>
+                  <ud_83>
+                    <nombre>COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_83>
+                  <ud_84>
+                    <nombre>APLICACIONES EN INTERNET </nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>9</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_84>
+                  <ud_85>
+                    <nombre>SOLUCION DE PROBLEMAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>10</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_85>
+                </unidades_didacticas>
+              </periodo_13>
+            </periodos>
+          </modulo_7>
+          <modulo_8>
+            <descripcion>PROCESO DE LA PRODUCCIÓN EN LA INDUSTRIA ALIMENTARIA</descripcion>
+            <numero_modulo>2</numero_modulo>
+            <periodos>
+              <periodo_14>
+                <descripcion>II</descripcion>
+                <unidades_didacticas>
+                  <ud_86>
+                    <nombre>MATEMÁTICA APLICADA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_86>
+                  <ud_87>
+                    <nombre>OPERACIONES UNITARIAS</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_87>
+                  <ud_88>
+                    <nombre>QUÍMICA APLICADA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_88>
+                  <ud_89>
+                    <nombre>PLANEAMIENTO Y CONTROL DE LA PRODUCCIÓN </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_89>
+                  <ud_90>
+                    <nombre>PROCESAMIENTO DE FRUTAS, HORTALIZAS Y LEGUMBRES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_90>
+                  <ud_91>
+                    <nombre>INGLÉS PARA LA COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_91>
+                  <ud_92>
+                    <nombre>INTERPRETACIÓN Y PRODUCCIÓN DE TEXTOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_92>
+                  <ud_93>
+                    <nombre>OFIMÁTICA</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_93>
+                </unidades_didacticas>
+              </periodo_14>
+              <periodo_15>
+                <descripcion>III</descripcion>
+                <unidades_didacticas>
+                  <ud_94>
+                    <nombre>PROCESAMIENTO DE PRODUCTOS LÁCTEOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_94>
+                  <ud_95>
+                    <nombre>PROCESAMIENTO DE  PRODUCTOS CÁRNICOS E HIDROBIOLÓGICOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_95>
+                  <ud_96>
+                    <nombre>PROCESAMIENTO DE GRANOS, CEREALES Y TUBERCULOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_96>
+                  <ud_97>
+                    <nombre>BIOQUÍMICA APLICADA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_97>
+                  <ud_98>
+                    <nombre>ANÁLISIS DE ALIMENTOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>4</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>9</horas_semana>
+                    <horas_semestre>144</horas_semestre>
+                  </ud_98>
+                  <ud_99>
+                    <nombre>COMPRENSIÓN Y REDACCIÓN EN INGLÉS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_99>
+                </unidades_didacticas>
+              </periodo_15>
+              <periodo_16>
+                <descripcion>IV</descripcion>
+                <unidades_didacticas>
+                  <ud_100>
+                    <nombre>MICROBIOLOGÍA APLICADA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_100>
+                  <ud_101>
+                    <nombre>REFRIGERACIÓN Y CONGELACIÓN DE ALIMENTOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>4</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>9</horas_semana>
+                    <horas_semestre>144</horas_semestre>
+                  </ud_101>
+                  <ud_102>
+                    <nombre>HIGIENE Y MANIPULACIÓN DE ALIMENTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_102>
+                  <ud_103>
+                    <nombre>MAQUINARIAS Y EQUIPOS DE PROCESAMIENTO DE ALIMENTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_103>
+                  <ud_104>
+                    <nombre>ÉTICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_104>
+                </unidades_didacticas>
+              </periodo_16>
+            </periodos>
+          </modulo_8>
+          <modulo_9>
+            <descripcion>ENVASADO Y EMBALADO DE ALIMENTOS</descripcion>
+            <numero_modulo>3</numero_modulo>
+            <periodos>
+              <periodo_17>
+                <descripcion>V</descripcion>
+                <unidades_didacticas>
+                  <ud_105>
+                    <nombre>FUNDAMENTOS DEL ENVASADO Y EMBALADO DE ALIMENTOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_105>
+                  <ud_106>
+                    <nombre>GESTION DE ENVASES, EMPAQUES Y EMBALAJES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_106>
+                  <ud_107>
+                    <nombre>EQUIPOS DE ENVASADO, EMBALADO Y ETIQUETADO DE ALIMENTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_107>
+                  <ud_108>
+                    <nombre>EMPAQUE Y EMBALAJE DE PRODUCTOS ALIMENTICIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_108>
+                  <ud_109>
+                    <nombre>CONSERVACION Y ALMACENAMIENTO DE ALIMENTOS.</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_109>
+                  <ud_110>
+                    <nombre>LOGÍSTICA DE PRODUCTOS TERMINADOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_110>
+                  <ud_111>
+                    <nombre>FUNDAMENTOS DE INNOVACIÓN TECNOLÓGICA</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_111>
+                  <ud_112>
+                    <nombre>OPORTUNIDADES DE NEGOCIOS</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_112>
+                </unidades_didacticas>
+              </periodo_17>
+            </periodos>
+          </modulo_9>
+          <modulo_10>
+            <descripcion>CONTROL PARA EL ASEGURAMIENTO DE LA CALIDAD DE ALIMENTOS</descripcion>
+            <numero_modulo>4</numero_modulo>
+            <periodos>
+              <periodo_18>
+                <descripcion>VI</descripcion>
+                <unidades_didacticas>
+                  <ud_113>
+                    <nombre>CONTROL DE CALIDAD DE MATERIA PRIMA E INSUMOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_113>
+                  <ud_114>
+                    <nombre>CONTROL DE PARÁMETROS DEL PROCESO PRODUCTIVO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_114>
+                  <ud_115>
+                    <nombre>CALIBRACION DE EQUIPOS DE MEDIDA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_115>
+                  <ud_116>
+                    <nombre>SISTEMAS DE GESTION DE CALIDAD</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_116>
+                  <ud_117>
+                    <nombre>INSPECCIÓN Y MUESTREO DE ALIMENTOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_117>
+                  <ud_118>
+                    <nombre>INNOVACIÓN TECNOLÓGICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_118>
+                  <ud_119>
+                    <nombre>PLAN DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_119>
+                </unidades_didacticas>
+              </periodo_18>
+            </periodos>
+          </modulo_10>
+        </modulos_formativos>
+      </plan_3>
+    </planes_estudio>
+  </pe_3>
+  <pe_4>
+    <codigo>MA</codigo>
+    <tipo>Modular</tipo>
+    <nombre>MECATRONICA AUTOMOTRIZ</nombre>
+    <planes_estudio>
+      <plan_4>
+        <nombre>2021</nombre>
+        <resolucion>RD. 095-8566</resolucion>
+        <fecha>2025-08-11 08:59:05</fecha>
+        <modulos_formativos>
+          <modulo_11>
+            <descripcion>MANTENIMIENTO PROGRAMADO Y REPARACIÓN DE LOS SISTEMAS DE CONTROL DEL VEHÍCULO</descripcion>
+            <numero_modulo>1</numero_modulo>
+            <periodos>
+              <periodo_19>
+                <descripcion>I</descripcion>
+                <unidades_didacticas>
+                  <ud_120>
+                    <nombre>DIBUJO MECÁNICO CAD  AUTOMOTRIZ</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_120>
+                  <ud_121>
+                    <nombre>MANTENIMIENTO AUTOMOTRIZ</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_121>
+                  <ud_122>
+                    <nombre>MECÁNICA DE TALLER AUTOMOTRIZ</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_122>
+                  <ud_123>
+                    <nombre>SISTEMA DE SUSPENSIÓN</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_123>
+                  <ud_124>
+                    <nombre>SEGURIDAD LABORAL </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_124>
+                  <ud_125>
+                    <nombre>COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_125>
+                  <ud_126>
+                    <nombre>INTERPRETACIÓN Y PRODUCCIÓN DE TEXTOS</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_126>
+                </unidades_didacticas>
+              </periodo_19>
+              <periodo_20>
+                <descripcion>II</descripcion>
+                <unidades_didacticas>
+                  <ud_127>
+                    <nombre>HIDRAULICA Y NEUMÁTICA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_127>
+                  <ud_128>
+                    <nombre>CÁLCULOS APLICADOS A LOS SISTEMAS DE SUSPENSIÓN, DIRECCIÓN Y FRENOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_128>
+                  <ud_129>
+                    <nombre>SISTEMA DE DIRECCIÓN</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_129>
+                  <ud_130>
+                    <nombre>SISTEMA DE FRENOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_130>
+                  <ud_131>
+                    <nombre>CULTURA FÍSICA Y DEPORTIVA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_131>
+                  <ud_132>
+                    <nombre>APLICACIONES EN INTERNET</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_132>
+                </unidades_didacticas>
+              </periodo_20>
+            </periodos>
+          </modulo_11>
+          <modulo_12>
+            <descripcion>MANTENIMIENTO Y REPARACIÓN DEL SISTEMA ELÉCTRICO Y ELECTRÓNICO AUTOMOTRIZ</descripcion>
+            <numero_modulo>2</numero_modulo>
+            <periodos>
+              <periodo_21>
+                <descripcion>III</descripcion>
+                <unidades_didacticas>
+                  <ud_134>
+                    <nombre>SISTEMAS DE LUCES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_134>
+                  <ud_135>
+                    <nombre>SISTEMA DE CARGA Y ARRANQUE</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_135>
+                  <ud_136>
+                    <nombre>SISTEMA DE ENCENDIDO AUTOMOTRIZ</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_136>
+                  <ud_137>
+                    <nombre>SISTEMA DE IMPLEMENTOS Y CONFORT.</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_137>
+                  <ud_138>
+                    <nombre>OFIMÁTICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_138>
+                  <ud_139>
+                    <nombre>INGLES PARA LA COMUNICACIÒN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_139>
+                </unidades_didacticas>
+              </periodo_21>
+            </periodos>
+          </modulo_12>
+          <modulo_13>
+            <descripcion>MANTENIMIENTO Y REPARACIÓN DEL SISTEMA DE TRANSMISIÓN.</descripcion>
+            <numero_modulo>3</numero_modulo>
+            <periodos>
+              <periodo_22>
+                <descripcion>IV</descripcion>
+                <unidades_didacticas>
+                  <ud_140>
+                    <nombre>SISTEMA DE TRANSMISIÓN AUTOMÁTICA Y TRANSFERENCIA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_140>
+                  <ud_141>
+                    <nombre>MECANISMO DIFERENCIAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_141>
+                  <ud_142>
+                    <nombre>CÁLCULOS APLICADOS A LA TRANSMISIÓN</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_142>
+                  <ud_143>
+                    <nombre>SISTEMA DE TRANSMISIÓN MANUAL </nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_143>
+                  <ud_144>
+                    <nombre>COMPRENSIÓN Y REDACCIÓN EN INGLÉS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_144>
+                  <ud_145>
+                    <nombre>CULTURA AMBIENTAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_145>
+                </unidades_didacticas>
+              </periodo_22>
+            </periodos>
+          </modulo_13>
+          <modulo_14>
+            <descripcion>MANTENIMIENTO Y REPARACIÓN DE MOTORES DE COMBUSTIÓN INTERNA Y SISTEMAS ELECTRÓNICOS.</descripcion>
+            <numero_modulo>4</numero_modulo>
+            <periodos>
+              <periodo_23>
+                <descripcion>V</descripcion>
+                <unidades_didacticas>
+                  <ud_146>
+                    <nombre>MOTORES DE COMBUSTIÓN INTERNA OTTO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>4</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>9</horas_semana>
+                    <horas_semestre>144</horas_semestre>
+                  </ud_146>
+                  <ud_147>
+                    <nombre>INYECCIÓN ELECTRÓNICA OTTO</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_147>
+                  <ud_148>
+                    <nombre>CÁLCULOS APLICADOS AL MOTOR DE COMBUSTIÓN INTERNO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_148>
+                  <ud_149>
+                    <nombre>AFINAMIENTO ELECTRÓNICO DE MCI</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_149>
+                  <ud_150>
+                    <nombre>OPORTUNIDADES DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_150>
+                </unidades_didacticas>
+              </periodo_23>
+              <periodo_24>
+                <descripcion>VI</descripcion>
+                <unidades_didacticas>
+                  <ud_151>
+                    <nombre>MOTORES DE COMBUSTIÓN INTERNA DIESEL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_151>
+                  <ud_152>
+                    <nombre>INYECCIÓN ELECTRÓNICA DIESEL</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_152>
+                  <ud_153>
+                    <nombre>RECTIFICACIONES AUTOMOTRICES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_153>
+                  <ud_154>
+                    <nombre>CONVERSIÓN A COMBUSTIBLES ALTERNOS A GAS GLP Y GNV</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_154>
+                  <ud_155>
+                    <nombre>PLAN DE NEGOCIOS Y FINANCIAMIENTO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_155>
+                </unidades_didacticas>
+              </periodo_24>
+            </periodos>
+          </modulo_14>
+        </modulos_formativos>
+      </plan_4>
+      <plan_8>
+        <nombre>2025</nombre>
+        <resolucion>--</resolucion>
+        <fecha>2025-08-11 09:00:30</fecha>
+        <modulos_formativos>
+          <modulo_30>
+            <descripcion>MANTENIMIENTO DE VEHÍCULOS CONVENCIONALES Y CON ASISTENCIA ELECTRÓNICA.</descripcion>
+            <numero_modulo>1</numero_modulo>
+            <periodos>
+              <periodo_49>
+                <descripcion>I</descripcion>
+                <unidades_didacticas>
+                  <ud_323>
+                    <nombre>MANTENIMIENTO AUTOMOTRIZ</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_323>
+                  <ud_324>
+                    <nombre>MECÁNICA DE TALLER Y METROLOGÍA AUTOMOTRIZ</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_324>
+                  <ud_325>
+                    <nombre>MANTENIMIENTO PREVENTIVO DE LA SUSPENSIÓN, DIRECCION Y FRENOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_325>
+                  <ud_326>
+                    <nombre>SEGURIDAD LABORAL </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_326>
+                  <ud_327>
+                    <nombre>MANTENIMIENTO PREVENTIVO DEL SISTEMA ELECTRICO </nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_327>
+                  <ud_328>
+                    <nombre>COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_328>
+                  <ud_329>
+                    <nombre>APLICACIONES EN INTERNET</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_329>
+                </unidades_didacticas>
+              </periodo_49>
+              <periodo_50>
+                <descripcion>II</descripcion>
+                <unidades_didacticas>
+                  <ud_330>
+                    <nombre>DIBUJO MECÁNICO CAD  AUTOMOTRIZ</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_330>
+                  <ud_331>
+                    <nombre>HIDRAULICA Y NEUMÁTICA	</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_331>
+                  <ud_332>
+                    <nombre>CÁLCULOS APLICADOS A LOS SISTEMAS DE SUSPENSIÓN, DIRECCIÓN Y FRENOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_332>
+                  <ud_333>
+                    <nombre>MANTENIMIENTO Y REPARACIÓN DEL SISTEMA DE SUSPENSIÓN Y DIRECCIÓN CON ASISTENCIA ELECTRÓNICA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_333>
+                  <ud_334>
+                    <nombre>MANTENIMIENTO Y REPARACIÓN DEL SISTEMA DE FRENOS CONVENCIONAL Y CON ASISTENCIA ELECTRÓNICA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_334>
+                  <ud_335>
+                    <nombre>INTERPRETACIÓN Y  PRODUCCIÓN DE TEXTOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_335>
+                  <ud_336>
+                    <nombre>OFIMATICA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_336>
+                </unidades_didacticas>
+              </periodo_50>
+            </periodos>
+          </modulo_30>
+          <modulo_31>
+            <descripcion>MANTENIMIENTO DE SISTEMAS ELECTRÍCOS Y ELECTRÓNICOS AUTOMOTRICES.</descripcion>
+            <numero_modulo>2</numero_modulo>
+            <periodos>
+              <periodo_51>
+                <descripcion>III</descripcion>
+                <unidades_didacticas>
+                  <ud_337>
+                    <nombre>SISTEMAS DE LUCES</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_337>
+                  <ud_338>
+                    <nombre>SISTEMA DE CARGA Y ARRANQUE</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_338>
+                  <ud_339>
+                    <nombre>SISTEMA DE ENCENDIDO AUTOMOTRIZ CON ASISTENCIA ELECTRÓNICA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_339>
+                  <ud_340>
+                    <nombre>SISTEMA DE IMPLEMENTOS, SEGURIDAD Y CONFORT	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_340>
+                  <ud_341>
+                    <nombre>DIBUJO ELECTRICO Y ELECTRÓNICO AUTOMOTRIZ</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_341>
+                  <ud_342>
+                    <nombre>COMPORTAMIENTO ÉTICO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_342>
+                  <ud_343>
+                    <nombre>INGLÉS PARA LA COMUNCACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_343>
+                </unidades_didacticas>
+              </periodo_51>
+            </periodos>
+          </modulo_31>
+          <modulo_32>
+            <descripcion>MANTENIMIENTO DEL SISTEMA DE TRANSMISIÓN DE VEHÍCULOS CON ASISTENCIA ELECTRÓNICA.</descripcion>
+            <numero_modulo>3</numero_modulo>
+            <periodos>
+              <periodo_52>
+                <descripcion>IV</descripcion>
+                <unidades_didacticas>
+                  <ud_344>
+                    <nombre>SISTEMA DE TRANSMISIÓN AUTOMÁTICA Y TRANSFERENCIA.</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_344>
+                  <ud_345>
+                    <nombre>MECANISMO DIFERENCIAL</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_345>
+                  <ud_346>
+                    <nombre>MECANISMO DE EMBRAGUE Y CAJA DE VELOCIDADES MANUAL </nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_346>
+                  <ud_347>
+                    <nombre>COMPRESIÓN Y REDACCIÓN EN INGLÉS	</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_347>
+                  <ud_348>
+                    <nombre>ESTRATEGIAS PARA SOLUCIÓN DE PROBLEMAS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_348>
+                </unidades_didacticas>
+              </periodo_52>
+            </periodos>
+          </modulo_32>
+          <modulo_33>
+            <descripcion>MANTENIMIENTO DE MOTORES DE COMBUSTIÓN INTERNA CON ASISTENCIA ELECTRÓNICA.</descripcion>
+            <numero_modulo>4</numero_modulo>
+            <periodos>
+              <periodo_53>
+                <descripcion>V</descripcion>
+                <unidades_didacticas>
+                  <ud_349>
+                    <nombre>MOTORES DE COMBUSTIÓN INTERNA OTTO</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_349>
+                  <ud_350>
+                    <nombre>INYECCIÓN ELECTRÓNICA OTTO</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_350>
+                  <ud_351>
+                    <nombre>SISTEMA CAN BUS Y UNIDADES DE CONTROL ELECTRÓNICO </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_351>
+                  <ud_352>
+                    <nombre>CÁLCULOS APLICADOS AL MOTOR DE COMBUSTIÓN INTERNO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_352>
+                  <ud_353>
+                    <nombre>OPORTUNIDAD DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_353>
+                  <ud_354>
+                    <nombre>FUNDAMENTOS DE INNOVACIÓN TECNOLÓGICA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_354>
+                </unidades_didacticas>
+              </periodo_53>
+              <periodo_54>
+                <descripcion>VI</descripcion>
+                <unidades_didacticas>
+                  <ud_355>
+                    <nombre>MOTORES DE COMBUSTIÓN INTERNA DIESEL CON ASISTENCIA ELECTRÓNICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_355>
+                  <ud_356>
+                    <nombre>SISTEMA DE INYECCIÓN DIESEL CON GESTIÓN ELECTRÓNICA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_356>
+                  <ud_357>
+                    <nombre>AFINAMIENTO ELECTRÓNICO DE MCI</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_357>
+                  <ud_358>
+                    <nombre>CONVERSIÓN A COMBUSTIBLES ALTERNOS A GAS GLP Y GNV</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_358>
+                  <ud_359>
+                    <nombre>PLAN DE NEGOCIOS</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_359>
+                  <ud_360>
+                    <nombre>PROYECTO DE INNOVACIÓN TECNOLÓGICA </nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_360>
+                </unidades_didacticas>
+              </periodo_54>
+            </periodos>
+          </modulo_33>
+        </modulos_formativos>
+      </plan_8>
+    </planes_estudio>
+  </pe_4>
+  <pe_5>
+    <codigo>PA</codigo>
+    <tipo>Modular</tipo>
+    <nombre>PRODUCCIÓN AGROPECUARIA</nombre>
+    <planes_estudio>
+      <plan_5>
+        <nombre>2021</nombre>
+        <resolucion>RD. 095-8566</resolucion>
+        <fecha>2025-08-11 08:59:23</fecha>
+        <modulos_formativos>
+          <modulo_15>
+            <descripcion>GESTIÓN DE LA PRODUCCIÓN DE CULTIVOS</descripcion>
+            <numero_modulo>1</numero_modulo>
+            <periodos>
+              <periodo_25>
+                <descripcion>I</descripcion>
+                <unidades_didacticas>
+                  <ud_156>
+                    <nombre>MANEJO Y CONSERVACIÓN DE SUELOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_156>
+                  <ud_157>
+                    <nombre>BOTÁNICA Y FISIOLOGÍA VEGETAL</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_157>
+                  <ud_158>
+                    <nombre>TOPOGRAFÍA AGRÍCOLA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_158>
+                  <ud_159>
+                    <nombre>CULTIVO DE HORTALIZAS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_159>
+                  <ud_160>
+                    <nombre>CULTIVO DE LEGUMINOSAS Y GRANOS ANDINOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_160>
+                  <ud_161>
+                    <nombre>PRODUCCIÓN DE PASTOS Y FORRAJES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_161>
+                  <ud_162>
+                    <nombre>COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_162>
+                  <ud_163>
+                    <nombre>APLICACIONES DE INTERNET</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_163>
+                </unidades_didacticas>
+              </periodo_25>
+              <periodo_26>
+                <descripcion>II</descripcion>
+                <unidades_didacticas>
+                  <ud_164>
+                    <nombre>MECANIZACIÓN AGRÍCOLA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_164>
+                  <ud_165>
+                    <nombre>OPERACIÓN DE SISTEMAS DE RIEGO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_165>
+                  <ud_166>
+                    <nombre>PROPAGACIÓN DE PLANTAS EN VIVEROS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_166>
+                  <ud_167>
+                    <nombre>CULTIVO DE RAÍCES Y TUBEROSAS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_167>
+                  <ud_168>
+                    <nombre>CULTIVO DE FRUTALES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_168>
+                  <ud_169>
+                    <nombre>INTERPRETACIÓN Y PRODUCCIÓN DE TEXTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_169>
+                  <ud_170>
+                    <nombre>OFIMÁTICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_170>
+                </unidades_didacticas>
+              </periodo_26>
+            </periodos>
+          </modulo_15>
+          <modulo_16>
+            <descripcion>GESTIÓN DE LA PRODUCCIÓN PECUARIA</descripcion>
+            <numero_modulo>2</numero_modulo>
+            <periodos>
+              <periodo_27>
+                <descripcion>III</descripcion>
+                <unidades_didacticas>
+                  <ud_171>
+                    <nombre>ANATOMÍA Y FISIOLOGÍA ANIMAL</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_171>
+                  <ud_172>
+                    <nombre>INSTALACIONES PARA LA CRIANZA ANIMAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_172>
+                  <ud_173>
+                    <nombre>NUTRICIÓN Y ALIMENTACIÓN ANIMAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_173>
+                  <ud_174>
+                    <nombre>TÉCNICAS DE MEJORAMIENTO ANIMAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_174>
+                  <ud_175>
+                    <nombre>PRODUCCIÓN DE CUYES Y CONEJOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_175>
+                  <ud_176>
+                    <nombre>INGLÉS PARA LA COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_176>
+                  <ud_177>
+                    <nombre>FUNDAMENTOS DE INNOVACIÓN TECNOLÓGICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_177>
+                </unidades_didacticas>
+              </periodo_27>
+              <periodo_28>
+                <descripcion>IV</descripcion>
+                <unidades_didacticas>
+                  <ud_178>
+                    <nombre>PRODUCCIÓN DE AVES</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_178>
+                  <ud_179>
+                    <nombre>PRODUCCIÓN DE VACUNOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_179>
+                  <ud_180>
+                    <nombre>PRODUCCIÓN DE PORCINOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_180>
+                  <ud_181>
+                    <nombre>PRODUCCIÓN DE OVINOS, CAPRINOS Y CAMÉLIDOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_181>
+                  <ud_182>
+                    <nombre>CRIANZA DE ABEJAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_182>
+                  <ud_183>
+                    <nombre>COMPRENSIÓN Y REDACCIÓN EN INGLÉS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_183>
+                  <ud_184>
+                    <nombre>INNOVACIÓN TECNOLÓGICA </nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_184>
+                </unidades_didacticas>
+              </periodo_28>
+            </periodos>
+          </modulo_16>
+          <modulo_17>
+            <descripcion>PREVENCIÓN Y MANEJO SANITARIO Y FITOSANITARIO</descripcion>
+            <numero_modulo>3</numero_modulo>
+            <periodos>
+              <periodo_29>
+                <descripcion>V</descripcion>
+                <unidades_didacticas>
+                  <ud_185>
+                    <nombre>CONTROL DE ENFERMEDADES METABÓLICAS E INFECCIOSAS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_185>
+                  <ud_186>
+                    <nombre>CONTROL DE ENFERMEDADES PARASITARIAS</nombre>
+                    <creditos_teorico>3</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>7</horas_semana>
+                    <horas_semestre>112</horas_semestre>
+                  </ud_186>
+                  <ud_187>
+                    <nombre>MANEJO INTEGRADO DE PLAGAS AGRÍCOLAS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_187>
+                  <ud_188>
+                    <nombre>MANEJO Y CONTROL DE ENFERMEDADES AGRÍCOLAS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_188>
+                  <ud_189>
+                    <nombre>COMPORTAMIENTO ÉTICO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_189>
+                  <ud_190>
+                    <nombre>OPORTUNIDADES DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_190>
+                </unidades_didacticas>
+              </periodo_29>
+            </periodos>
+          </modulo_17>
+          <modulo_18>
+            <descripcion>APROVECHAMIENTO Y MERCADEO DE PRODUCTOS AGROPECUARIOS</descripcion>
+            <numero_modulo>4</numero_modulo>
+            <periodos>
+              <periodo_30>
+                <descripcion>VI</descripcion>
+                <unidades_didacticas>
+                  <ud_191>
+                    <nombre>MANEJO POS COSECHA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_191>
+                  <ud_192>
+                    <nombre>PROCESAMIENTO PRIMARIO DE PRODUCTOS AGRÍCOLAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_192>
+                  <ud_193>
+                    <nombre>PROCESAMIENTO PRIMARIO DE PRODUCTOS PECUARIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_193>
+                  <ud_194>
+                    <nombre>CONTROL DE CALIDAD DE PRODUCTOS AGROPECUARIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_194>
+                  <ud_195>
+                    <nombre>PLAN DE EXPLOTACIÓN AGROPECUARIA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_195>
+                  <ud_196>
+                    <nombre>MARKETING DE PRODUCTOS AGROPECUARIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_196>
+                  <ud_197>
+                    <nombre>SOLUCIÓN DE PROBLEMAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_197>
+                  <ud_198>
+                    <nombre>PLAN DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_198>
+                </unidades_didacticas>
+              </periodo_30>
+            </periodos>
+          </modulo_18>
+        </modulos_formativos>
+      </plan_5>
+      <plan_9>
+        <nombre>2025</nombre>
+        <resolucion>--</resolucion>
+        <fecha>2025-08-11 09:00:46</fecha>
+        <modulos_formativos>
+          <modulo_26>
+            <descripcion>PREPARACIÓN DEL TERRENO E IMPLEMENTACIÓN DE INFRAESTRUCTURA AGROPECUARIA</descripcion>
+            <numero_modulo>1</numero_modulo>
+            <periodos>
+              <periodo_43>
+                <descripcion>I</descripcion>
+                <unidades_didacticas>
+                  <ud_279>
+                    <nombre>INSTALACIONES AGROPECUARIAS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_279>
+                  <ud_280>
+                    <nombre>OPERACIÓN DE SISTEMAS DE RIEGO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_280>
+                  <ud_281>
+                    <nombre>TOPOGRAFÍA AGRÍCOLA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_281>
+                  <ud_282>
+                    <nombre>MANEJO Y CONSERVACIÓN  DE SUELOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_282>
+                  <ud_283>
+                    <nombre> MECANIZACIÓN AGRÍCOLA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_283>
+                  <ud_284>
+                    <nombre>COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_284>
+                  <ud_285>
+                    <nombre>APLICACIONES EN INTERNET</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>2</horas_semana>
+                    <horas_semestre>32</horas_semestre>
+                  </ud_285>
+                </unidades_didacticas>
+              </periodo_43>
+            </periodos>
+          </modulo_26>
+          <modulo_27>
+            <descripcion>SUPERVISIÓN Y EJECUCIÓN DEL PLAN OPERATIVO DE LOS PROCESOS PRODUCTIVOS AGROPECUARIOS</descripcion>
+            <numero_modulo>2</numero_modulo>
+            <periodos>
+              <periodo_44>
+                <descripcion>II</descripcion>
+                <unidades_didacticas>
+                  <ud_286>
+                    <nombre>PRODUCCIÓN DE PASTOS Y FORRAJES </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_286>
+                  <ud_287>
+                    <nombre>PRODUCCIÓN DE  CUYES Y CONEJOS.</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_287>
+                  <ud_288>
+                    <nombre>HORTICULTURA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_288>
+                  <ud_289>
+                    <nombre>RAÍCES Y TUBEROSAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_289>
+                  <ud_290>
+                    <nombre>FORMULACIÓN DE RACIONES.</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_290>
+                  <ud_291>
+                    <nombre>PLAN DE EXPLOTACIÓN AGROPECUARIA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_291>
+                  <ud_292>
+                    <nombre>INGLÉS PARA LA COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_292>
+                  <ud_293>
+                    <nombre>OFIMÁTICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_293>
+                </unidades_didacticas>
+              </periodo_44>
+              <periodo_45>
+                <descripcion>III</descripcion>
+                <unidades_didacticas>
+                  <ud_294>
+                    <nombre>PRODUCCIÓN DE AVES.</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_294>
+                  <ud_295>
+                    <nombre>PRODUCCIÓN APÍCOLA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_295>
+                  <ud_296>
+                    <nombre>CONTROL DE ENFERMEDADES PARASITARIAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_296>
+                  <ud_297>
+                    <nombre>PROPAGACIÓN DE PLANTAS EN VIVEROS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_297>
+                  <ud_298>
+                    <nombre>CULTIVO DE CEREALES Y LEGUMINOSAS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_298>
+                  <ud_299>
+                    <nombre>TÉCNICAS DE MEJORAMIENTO ANIMAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_299>
+                  <ud_300>
+                    <nombre> RESOLUCIÓN DE PROBLEMAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_300>
+                </unidades_didacticas>
+              </periodo_45>
+              <periodo_46>
+                <descripcion>IV</descripcion>
+                <unidades_didacticas>
+                  <ud_301>
+                    <nombre>PRODUCCIÓN DE  VACUNOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_301>
+                  <ud_302>
+                    <nombre>PRODUCCIÓN DE  PORCINOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_302>
+                  <ud_303>
+                    <nombre>PRODUCCIÓN DE  OVINOS,CAPRINOS Y CAMÉLIDOS SUDAMERICANOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_303>
+                  <ud_304>
+                    <nombre>CONTROL DE ENFERMEDADES INFECCIOSAS Y METABÓLICAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_304>
+                  <ud_305>
+                    <nombre> MANEJO INTEGRADO DE PLAGAS Y ENFERMEDADES AGRÍCOLAS.</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_305>
+                  <ud_306>
+                    <nombre>FRUTICULTURA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_306>
+                  <ud_307>
+                    <nombre>COMPRENSIÓN Y REDACCIÓN EN INGLÉS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_307>
+                  <ud_308>
+                    <nombre>COMPORTAMIENTO ÉTICO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_308>
+                </unidades_didacticas>
+              </periodo_46>
+            </periodos>
+          </modulo_27>
+          <modulo_28>
+            <descripcion>PROCESAMIENTO PRIMARIO Y APROVECHAMIENTO DE PRODUCTOS AGROPECUARIOS.</descripcion>
+            <numero_modulo>3</numero_modulo>
+            <periodos>
+              <periodo_47>
+                <descripcion>V</descripcion>
+                <unidades_didacticas>
+                  <ud_309>
+                    <nombre>PROCESAMIENTO PRIMARIO DE PRODUCTOS AGRÍCOLAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_309>
+                  <ud_310>
+                    <nombre>PROCESOS PRIMARIOS DE PRODUCTOS PECUARIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_310>
+                  <ud_311>
+                    <nombre>MANEJO DE POSCOSECHA </nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_311>
+                  <ud_312>
+                    <nombre>CONTROL DE CALIDAD DE PRODUCTOS AGROPECUARIOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_312>
+                  <ud_313>
+                    <nombre>APROVECHAMIENTO DE PRODUCTOS PECUARIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_313>
+                  <ud_314>
+                    <nombre>FUNDAMENTOS DE INNOVACIÓN TECNOLÓGICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_314>
+                  <ud_315>
+                    <nombre>OPORTUNIDADES DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_315>
+                </unidades_didacticas>
+              </periodo_47>
+            </periodos>
+          </modulo_28>
+          <modulo_29>
+            <descripcion>ALMACENAMIENTO Y COMERCIALIZACIÓN DE LA PRODUCCIÓN AGROPECUARIA</descripcion>
+            <numero_modulo>4</numero_modulo>
+            <periodos>
+              <periodo_48>
+                <descripcion>VI</descripcion>
+                <unidades_didacticas>
+                  <ud_316>
+                    <nombre>COMERCIALIZACIÓN DE LA PRODUCCIÓN AGROPECUARIA.</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_316>
+                  <ud_317>
+                    <nombre>MARKETING AGROPECUARIO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_317>
+                  <ud_318>
+                    <nombre>TÉCNICAS DE ALMACENAMIENTO.</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_318>
+                  <ud_319>
+                    <nombre>LOGÍSTICA EN ALMACENES AGROPECUARIOS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_319>
+                  <ud_320>
+                    <nombre>CADENAS PRODUCTIVAS </nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_320>
+                  <ud_321>
+                    <nombre>INNOVACIÓN TECNOLÓGICA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_321>
+                  <ud_322>
+                    <nombre>PLAN DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_322>
+                </unidades_didacticas>
+              </periodo_48>
+            </periodos>
+          </modulo_29>
+        </modulos_formativos>
+      </plan_9>
+    </planes_estudio>
+  </pe_5>
+  <pe_6>
+    <codigo>IAB</codigo>
+    <tipo>Modular</tipo>
+    <nombre>INDUSTRIAS DE ALIMENTOS Y BEBIDAS</nombre>
+    <planes_estudio>
+      <plan_7>
+        <nombre>2025</nombre>
+        <resolucion>--</resolucion>
+        <fecha>2025-08-11 09:00:09</fecha>
+        <modulos_formativos>
+          <modulo_19>
+            <descripcion>RECEPCIÓN, ACONDICIONAMIENTO Y MEZCLADO DE LA MATERIA PRIMA E INSUMOS.</descripcion>
+            <numero_modulo>1</numero_modulo>
+            <periodos>
+              <periodo_31>
+                <descripcion>I</descripcion>
+                <unidades_didacticas>
+                  <ud_199>
+                    <nombre>RECEPCIÓN DE MATERIAS PRIMAS E INSUMOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_199>
+                  <ud_200>
+                    <nombre>BUENAS PRÁCTICAS DE MANUFACTURA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_200>
+                  <ud_201>
+                    <nombre>QUÍMICA APLICADA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_201>
+                  <ud_202>
+                    <nombre>MAQUINARIA Y EQUIPOS EN LA RECEPCIÓN Y CLASIFICACIÓN DE LA MATERIA PRIMA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_202>
+                  <ud_203>
+                    <nombre>ALMACENAMIENTO DE MATERIAS PRIMAS E INSUMOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_203>
+                  <ud_204>
+                    <nombre>COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_204>
+                  <ud_205>
+                    <nombre>APLICACIONES EN INTERNET</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_205>
+                </unidades_didacticas>
+              </periodo_31>
+              <periodo_32>
+                <descripcion>II</descripcion>
+                <unidades_didacticas>
+                  <ud_206>
+                    <nombre>SELECCIÓN Y CLASIFICACIÓN DE LAS MATERIAS PRIMAS </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_206>
+                  <ud_207>
+                    <nombre>ACONDICIONAMIENTO DE LAS MATERIAS PRIMAS PARA EL PROCESO</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_207>
+                  <ud_208>
+                    <nombre>HIGIENE EN LA INDUSTRIA ALIMENTARIA</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_208>
+                  <ud_209>
+                    <nombre>PROCESO PARA MEZCLADO Y HOMOGENIZADO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_209>
+                  <ud_210>
+                    <nombre>BIOQUÍMICA DE LOS ALIMENTOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_210>
+                  <ud_211>
+                    <nombre>INTERPRETACIÓN Y PRODUCCIÓN TEXTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_211>
+                  <ud_212>
+                    <nombre>OFIMÁTICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_212>
+                </unidades_didacticas>
+              </periodo_32>
+            </periodos>
+          </modulo_19>
+          <modulo_20>
+            <descripcion>TRATAMIENTO TÉRMICO, OPERACIONES DE ELIMINACIÓN DE AGUA Y SEPARACIÓN EN EL PROCESAMIENTO DE ALIMENTOS.</descripcion>
+            <numero_modulo>2</numero_modulo>
+            <periodos>
+              <periodo_33>
+                <descripcion>III</descripcion>
+                <unidades_didacticas>
+                  <ud_213>
+                    <nombre>PROCESAMIENTO DE FRUTAS Y HORTALIZAS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_213>
+                  <ud_214>
+                    <nombre> PROCESOS TÉRMICOS EN PRODUCTOS CÁRNICOS E HIDROBIOLÓGICOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_214>
+                  <ud_215>
+                    <nombre>PLANIFICACIÓN Y ORGANIZACIÓN DE LA PRODUCCIÓN DE ALIMENTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_215>
+                  <ud_216>
+                    <nombre>MAQUINARIAS Y EQUIPOS PARA LA SEPARACIÓN Y ELIMINACIÓN DE AGUA.</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_216>
+                  <ud_217>
+                    <nombre>MICROBIOLOGÍA DE ALIMENTOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_217>
+                  <ud_218>
+                    <nombre>INGLÉS PARA LA COMUNICACIÓN ORAL</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_218>
+                  <ud_219>
+                    <nombre>ESTRATEGIAS PARA LA RESOLUCIÓN DE PROBLEMAS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_219>
+                </unidades_didacticas>
+              </periodo_33>
+              <periodo_34>
+                <descripcion>IV</descripcion>
+                <unidades_didacticas>
+                  <ud_220>
+                    <nombre>PROCESAMIENTO DE PRODUCTOS DE PANADERÍA Y PASTELERÍA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>4</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>9</horas_semana>
+                    <horas_semestre>144</horas_semestre>
+                  </ud_220>
+                  <ud_221>
+                    <nombre>OPERACIONES DE ELIMINACIÓN DE AGUA EN PRODUCTOS VEGETALES Y  AZUCARES</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_221>
+                  <ud_222>
+                    <nombre>OPERACIONES DE SEPARACIÓN DE LOS ALIMENTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_222>
+                  <ud_223>
+                    <nombre>ANÁLISIS DE ALIMENTOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>3</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>8</horas_semana>
+                    <horas_semestre>128</horas_semestre>
+                  </ud_223>
+                  <ud_224>
+                    <nombre>COMPRENSIÓN Y REDACCIÓN EN INGLÉS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_224>
+                  <ud_225>
+                    <nombre>COMPORTAMIENTO ÉTICO</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_225>
+                </unidades_didacticas>
+              </periodo_34>
+            </periodos>
+          </modulo_20>
+          <modulo_21>
+            <descripcion>BIOTECNOLOGÍA Y ENVASADO EN EL PROCESAMIENTO DE ALIMENTOS.</descripcion>
+            <numero_modulo>3</numero_modulo>
+            <periodos>
+              <periodo_35>
+                <descripcion>V</descripcion>
+                <unidades_didacticas>
+                  <ud_226>
+                    <nombre>PROCESAMIENTO DE PRODUCTOS LÁCTEOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>6</horas_semana>
+                    <horas_semestre>96</horas_semestre>
+                  </ud_226>
+                  <ud_227>
+                    <nombre>PROCESAMIENTO DE PRODUCTOS FERMENTADOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_227>
+                  <ud_228>
+                    <nombre>ENVASADO DE PRODUCTOS ALIMENTICIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_228>
+                  <ud_229>
+                    <nombre>ETIQUETADO, ROTULADO Y DESPACHO DE LOS PRODUCTOS ALIMENTARIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_229>
+                  <ud_230>
+                    <nombre> ALMACENAMIENTO DE ALIMENTOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_230>
+                  <ud_231>
+                    <nombre>EMPACADO Y EMBALADO DE ALIMENTOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_231>
+                  <ud_232>
+                    <nombre>FUNDAMENTOS DE INNOVACIÓN TECNOLÓGICA</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_232>
+                  <ud_233>
+                    <nombre>OPORTUNIDADES DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>8</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_233>
+                </unidades_didacticas>
+              </periodo_35>
+            </periodos>
+          </modulo_21>
+          <modulo_22>
+            <descripcion>ASEGURAMIENTO DE LA CALIDAD.</descripcion>
+            <numero_modulo>4</numero_modulo>
+            <periodos>
+              <periodo_36>
+                <descripcion>VI</descripcion>
+                <unidades_didacticas>
+                  <ud_234>
+                    <nombre>SISTEMAS HACCP</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>1</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_234>
+                  <ud_235>
+                    <nombre>SISTEMAS DE GESTIÓN DE LA CALIDAD</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>2</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_235>
+                  <ud_236>
+                    <nombre>EVALUACIÓN SENSORIAL DE ALIMENTOS</nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>3</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_236>
+                  <ud_237>
+                    <nombre>CONTROL ESTADISTICO DE  PROCESOS</nombre>
+                    <creditos_teorico>0</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>4</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_237>
+                  <ud_238>
+                    <nombre>NUTRICIÓN HUMANA </nombre>
+                    <creditos_teorico>2</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>ESPECIALIDAD</tipo>
+                    <orden>5</orden>
+                    <horas_semana>4</horas_semana>
+                    <horas_semestre>64</horas_semestre>
+                  </ud_238>
+                  <ud_239>
+                    <nombre>INNOVACIÓN TECNOLÓGICA </nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>2</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>6</orden>
+                    <horas_semana>5</horas_semana>
+                    <horas_semestre>80</horas_semestre>
+                  </ud_239>
+                  <ud_240>
+                    <nombre>PLAN DE NEGOCIOS</nombre>
+                    <creditos_teorico>1</creditos_teorico>
+                    <creditos_practico>1</creditos_practico>
+                    <tipo>EMPLEABILIDAD</tipo>
+                    <orden>7</orden>
+                    <horas_semana>3</horas_semana>
+                    <horas_semestre>48</horas_semestre>
+                  </ud_240>
+                </unidades_didacticas>
+              </periodo_36>
+            </periodos>
+          </modulo_22>
+        </modulos_formativos>
+      </plan_7>
+    </planes_estudio>
+  </pe_6>
+</programas_estudio>
