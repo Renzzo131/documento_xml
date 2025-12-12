@@ -47,8 +47,7 @@ CREATE TABLE IF NOT EXISTS `sigi_programa_estudios` (
   `codigo` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci NOT NULL,
   `tipo` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci NOT NULL,
   `nombre` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `codigo` (`codigo`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
 
 -- Estructura de tabla para la tabla `sigi_planes_estudio`
@@ -117,140 +116,158 @@ if ($conexion->multi_query($sqlTablas)) {
     echo "✗ Error al crear las tablas: " . $conexion->error . "<br>";
 }
 
-echo "<hr><h2>Procesando datos del XML:</h2>";
-
 // Array para almacenar IDs de referencia
 $ids_referencia = array();
 
-// Recorrer el XML y procesar los datos
-foreach ($xml as $i_pe => $pe) {
-    echo "<strong>Programa de Estudios:</strong><br>";
-    echo "Nombre: " . $pe->nombre . '<br>';
-    echo "Código: " . $pe->codigo . '<br>';
-    echo "Tipo: " . $pe->tipo . '<br>';
+echo "<hr><h2>Procesando datos del XML:</h2>";
+
+// Función recursiva para procesar los datos
+function procesarPrograma($pe, $conexion, &$ids_referencia, $nivel = "") {
+    echo $nivel . "<strong>Programa de Estudios:</strong><br>";
+    echo $nivel . "Nombre: " . $pe->nombre . '<br>';
+    echo $nivel . "Código: " . $pe->codigo . '<br>';
+    echo $nivel . "Tipo: " . $pe->tipo . '<br>';
     
     // Insertar programa de estudios
     $codigo = $conexion->real_escape_string((string)$pe->codigo);
     $tipo = $conexion->real_escape_string((string)$pe->tipo);
     $nombre = $conexion->real_escape_string((string)$pe->nombre);
     
-    $consulta = "INSERT INTO sigi_programa_estudios (codigo, tipo, nombre) 
-                 VALUES ('$codigo', '$tipo', '$nombre') 
-                 ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id)";
+    $sql = "INSERT INTO sigi_programa_estudios (codigo, tipo, nombre) 
+            VALUES ('$codigo', '$tipo', '$nombre')";
     
-    if ($conexion->query($consulta)) {
+    if ($conexion->query($sql)) {
         $id_programa = $conexion->insert_id;
-        // Si es un duplicado, obtener el ID existente
-        if ($id_programa == 0) {
-            $result = $conexion->query("SELECT id FROM sigi_programa_estudios WHERE codigo = '$codigo'");
-            $row = $result->fetch_assoc();
-            $id_programa = $row['id'];
-        }
         $ids_referencia[(string)$pe->codigo] = $id_programa;
-        echo "✓ Insertado en DB (ID: $id_programa)<br><br>";
-    } else {
-        echo "✗ Error al insertar: " . $conexion->error . "<br><br>";
-        continue;
-    }
-    
-    // Procesar planes de estudio
-    foreach ($pe->planes_estudio[0] as $i_ple => $plan) {
-        echo "--<strong>Plan de Estudio:</strong><br>";
-        echo "--Nombre: " . $plan->nombre . '<br>';
-        echo "--Resolución: " . $plan->resolucion . '<br>';
-        echo "--Fecha de registro: " . $plan->fecha_registro . '<br>';
+        echo $nivel . "✓ Insertado en DB (ID: $id_programa)<br><br>";
         
-        // Insertar plan de estudio
-        $nombre_plan = $conexion->real_escape_string((string)$plan->nombre);
-        $resolucion = $conexion->real_escape_string((string)$plan->resolucion);
-        $fecha_registro = $conexion->real_escape_string((string)$plan->fecha_registro);
-        $perfil_egresado = isset($plan->perfil_egresado) ? $conexion->real_escape_string((string)$plan->perfil_egresado) : '';
-        
-        $consulta = "INSERT INTO sigi_planes_estudio (id_programa_estudios, nombre, resolucion, fecha_registro, perfil_egresado) 
-                     VALUES ('$id_programa', '$nombre_plan', '$resolucion', '$fecha_registro', '$perfil_egresado')";
-        
-        if ($conexion->query($consulta)) {
-            $id_plan = $conexion->insert_id;
-            $ids_referencia[(string)$pe->codigo . '_' . (string)$plan->nombre] = $id_plan;
-            echo "--✓ Insertado en DB (ID: $id_plan)<br><br>";
-        } else {
-            echo "--✗ Error al insertar: " . $conexion->error . "<br><br>";
-            continue;
+        // Procesar planes de estudio
+        if (isset($pe->planes_estudio)) {
+            foreach ($pe->planes_estudio->children() as $plan) {
+                procesarPlan($plan, $conexion, $ids_referencia, $id_programa, (string)$pe->codigo, $nivel . "--");
+            }
         }
+    } else {
+        echo $nivel . "✗ Error al insertar: " . $conexion->error . "<br><br>";
+    }
+}
+
+function procesarPlan($plan, $conexion, &$ids_referencia, $id_programa, $codigo_programa, $nivel = "") {
+    echo $nivel . "<strong>Plan de Estudio:</strong><br>";
+    echo $nivel . "Nombre: " . $plan->nombre . '<br>';
+    echo $nivel . "Resolución: " . $plan->resolucion . '<br>';
+    echo $nivel . "Fecha de registro: " . $plan->fecha_registro . '<br>';
+    
+    // Insertar plan de estudio
+    $nombre = $conexion->real_escape_string((string)$plan->nombre);
+    $resolucion = $conexion->real_escape_string((string)$plan->resolucion);
+    $fecha_registro = $conexion->real_escape_string((string)$plan->fecha_registro);
+    $perfil_egresado = isset($plan->perfil_egresado) ? $conexion->real_escape_string((string)$plan->perfil_egresado) : '';
+    
+    $sql = "INSERT INTO sigi_planes_estudio (id_programa_estudios, nombre, resolucion, fecha_registro, perfil_egresado) 
+            VALUES ('$id_programa', '$nombre', '$resolucion', '$fecha_registro', '$perfil_egresado')";
+    
+    if ($conexion->query($sql)) {
+        $id_plan = $conexion->insert_id;
+        $ids_referencia[$codigo_programa . '_' . $nombre] = $id_plan;
+        echo $nivel . "✓ Insertado en DB (ID: $id_plan)<br><br>";
         
         // Procesar módulos formativos
-        foreach ($plan->modulos_formativos[0] as $i__mod => $modulo) {
-            echo '----<strong>Módulo Formativo:</strong><br>';
-            echo '----' . $modulo->nro_modulo . ": " . $modulo->descripcion . '<br>';
-            
-            // Insertar módulo formativo
-            $descripcion = $conexion->real_escape_string((string)$modulo->descripcion);
-            $nro_modulo = (int)$modulo->nro_modulo;
-            
-            $consulta = "INSERT INTO sigi_modulo_formativo (descripcion, nro_modulo, id_plan_estudio) 
-                         VALUES ('$descripcion', '$nro_modulo', '$id_plan')";
-            
-            if ($conexion->query($consulta)) {
-                $id_modulo = $conexion->insert_id;
-                $ids_referencia[(string)$pe->codigo . '_' . (string)$plan->nombre . '_mod' . $nro_modulo] = $id_modulo;
-                echo '----✓ Insertado en DB (ID: $id_modulo)<br><br>';
-            } else {
-                echo '----✗ Error al insertar: ' . $conexion->error . '<br><br>';
-                continue;
-            }
-            
-            // Procesar periodos/semestres
-            foreach ($modulo->periodos[0] as $i_per => $periodo) {
-                echo '------<strong>Semestre/Período:</strong><br>';
-                echo '------' . $periodo->descripcion . '<br>';
-                
-                // Insertar semestre
-                $descripcion_periodo = $conexion->real_escape_string((string)$periodo->descripcion);
-                
-                $consulta = "INSERT INTO sigi_semestre (descripcion, id_modulo_formativo) 
-                             VALUES ('$descripcion_periodo', '$id_modulo')";
-                
-                if ($conexion->query($consulta)) {
-                    $id_semestre = $conexion->insert_id;
-                    $ids_referencia[(string)$pe->codigo . '_' . (string)$plan->nombre . '_mod' . $nro_modulo . '_' . (string)$periodo->descripcion] = $id_semestre;
-                    echo '------✓ Insertado en DB (ID: $id_semestre)<br><br>';
-                } else {
-                    echo '------✗ Error al insertar: ' . $conexion->error . '<br><br>';
-                    continue;
-                }
-                
-                // Procesar unidades didácticas
-                $orden = 1;
-                foreach ($periodo->unidades_didacticas[0] as $i_ud => $ud) {
-                    echo '--------<strong>Unidad Didáctica:</strong><br>';
-                    echo '--------' . $ud->nombre . '<br>';
-                    echo '-------- Créditos Teórico: ' . $ud->creditos_teorico . '<br>';
-                    echo '-------- Créditos Práctico: ' . $ud->creditos_practico . '<br>';
-                    echo '-------- Tipo: ' . $ud->tipo . '<br>';
-                    echo '-------- Horas Semanal: ' . $ud->horas_semanal . '<br>';
-                    echo '-------- Horas Semestral: ' . $ud->horas_semestral . '<br>';
-                    
-                    // Insertar unidad didáctica
-                    $nombre_ud = $conexion->real_escape_string((string)$ud->nombre);
-                    $creditos_teorico = (int)$ud->creditos_teorico;
-                    $creditos_practico = (int)$ud->creditos_practico;
-                    $tipo = $conexion->real_escape_string((string)$ud->tipo);
-                    $horas_semanal = isset($ud->horas_semanal) ? (int)$ud->horas_semanal : 0;
-                    $horas_semestral = isset($ud->horas_semestral) ? (int)$ud->horas_semestral : 0;
-                    
-                    $consulta = "INSERT INTO sigi_unidad_didactica (nombre, id_semestre, creditos_teorico, creditos_practico, tipo, orden, horas_semanal, horas_semestral) 
-                                 VALUES ('$nombre_ud', '$id_semestre', '$creditos_teorico', '$creditos_practico', '$tipo', '$orden', '$horas_semanal', '$horas_semestral')";
-                    
-                    if ($conexion->query($consulta)) {
-                        echo '--------✓ Insertado en DB (Orden: $orden)<br><br>';
-                    } else {
-                        echo '--------✗ Error al insertar: ' . $conexion->error . '<br><br>';
-                    }
-                    $orden++;
-                }
+        if (isset($plan->modulos_formativos)) {
+            foreach ($plan->modulos_formativos->children() as $modulo) {
+                procesarModulo($modulo, $conexion, $ids_referencia, $id_plan, $codigo_programa, $nombre, $nivel . "----");
             }
         }
+    } else {
+        echo $nivel . "✗ Error al insertar: " . $conexion->error . "<br><br>";
     }
+}
+
+function procesarModulo($modulo, $conexion, &$ids_referencia, $id_plan, $codigo_programa, $nombre_plan, $nivel = "") {
+    echo $nivel . "<strong>Módulo Formativo:</strong><br>";
+    echo $nivel . $modulo->nro_modulo . ": " . $modulo->descripcion . '<br>';
+    
+    // Insertar módulo formativo
+    $descripcion = $conexion->real_escape_string((string)$modulo->descripcion);
+    $nro_modulo = (int)$modulo->nro_modulo;
+    
+    $sql = "INSERT INTO sigi_modulo_formativo (descripcion, nro_modulo, id_plan_estudio) 
+            VALUES ('$descripcion', '$nro_modulo', '$id_plan')";
+    
+    if ($conexion->query($sql)) {
+        $id_modulo = $conexion->insert_id;
+        $ids_referencia[$codigo_programa . '_' . $nombre_plan . '_mod' . $nro_modulo] = $id_modulo;
+        echo $nivel . "✓ Insertado en DB (ID: $id_modulo)<br><br>";
+        
+        // Procesar períodos/semestres
+        if (isset($modulo->periodos)) {
+            foreach ($modulo->periodos->children() as $periodo) {
+                procesarPeriodo($periodo, $conexion, $ids_referencia, $id_modulo, $codigo_programa, $nombre_plan, $nro_modulo, $nivel . "------");
+            }
+        }
+    } else {
+        echo $nivel . "✗ Error al insertar: " . $conexion->error . "<br><br>";
+    }
+}
+
+function procesarPeriodo($periodo, $conexion, &$ids_referencia, $id_modulo, $codigo_programa, $nombre_plan, $nro_modulo, $nivel = "") {
+    echo $nivel . "<strong>Semestre/Período:</strong><br>";
+    echo $nivel . "Descripción: " . $periodo->descripcion . '<br>';
+    
+    // Insertar semestre
+    $descripcion = $conexion->real_escape_string((string)$periodo->descripcion);
+    
+    $sql = "INSERT INTO sigi_semestre (descripcion, id_modulo_formativo) 
+            VALUES ('$descripcion', '$id_modulo')";
+    
+    if ($conexion->query($sql)) {
+        $id_semestre = $conexion->insert_id;
+        $ids_referencia[$codigo_programa . '_' . $nombre_plan . '_mod' . $nro_modulo . '_' . $descripcion] = $id_semestre;
+        echo $nivel . "✓ Insertado en DB (ID: $id_semestre)<br><br>";
+        
+        // Procesar unidades didácticas
+        if (isset($periodo->unidades_didacticas)) {
+            $orden_counter = 1;
+            foreach ($periodo->unidades_didacticas->children() as $ud) {
+                procesarUnidadDidactica($ud, $conexion, $id_semestre, $orden_counter, $nivel . "--------");
+                $orden_counter++;
+            }
+        }
+    } else {
+        echo $nivel . "✗ Error al insertar: " . $conexion->error . "<br><br>";
+    }
+}
+
+function procesarUnidadDidactica($ud, $conexion, $id_semestre, $orden, $nivel = "") {
+    echo $nivel . "<strong>Unidad Didáctica:</strong><br>";
+    echo $nivel . "Nombre: " . $ud->nombre . '<br>';
+    echo $nivel . "Créditos Teórico: " . $ud->creditos_teorico . '<br>';
+    echo $nivel . "Créditos Práctico: " . $ud->creditos_practico . '<br>';
+    echo $nivel . "Tipo: " . $ud->tipo . '<br>';
+    echo $nivel . "Horas Semanal: " . $ud->horas_semanal . '<br>';
+    echo $nivel . "Horas Semestral: " . $ud->horas_semestral . '<br>';
+    
+    // Insertar unidad didáctica
+    $nombre = $conexion->real_escape_string((string)$ud->nombre);
+    $creditos_teorico = (int)$ud->creditos_teorico;
+    $creditos_practico = (int)$ud->creditos_practico;
+    $tipo = $conexion->real_escape_string((string)$ud->tipo);
+    $horas_semanal = isset($ud->horas_semanal) ? (int)$ud->horas_semanal : 0;
+    $horas_semestral = isset($ud->horas_semestral) ? (int)$ud->horas_semestral : 0;
+    
+    $sql = "INSERT INTO sigi_unidad_didactica (nombre, id_semestre, creditos_teorico, creditos_practico, tipo, orden, horas_semanal, horas_semestral) 
+            VALUES ('$nombre', '$id_semestre', '$creditos_teorico', '$creditos_practico', '$tipo', '$orden', '$horas_semanal', '$horas_semestral')";
+    
+    if ($conexion->query($sql)) {
+        echo $nivel . "✓ Insertado en DB (Orden: $orden)<br><br>";
+    } else {
+        echo $nivel . "✗ Error al insertar: " . $conexion->error . "<br><br>";
+    }
+}
+
+// Procesar cada programa de estudios del XML
+foreach ($xml->children() as $pe) {
+    procesarPrograma($pe, $conexion, $ids_referencia);
     echo "<hr>";
 }
 
