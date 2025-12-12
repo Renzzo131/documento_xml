@@ -1,9 +1,9 @@
 <?php
-
 $conexion = new mysqli("localhost", "root", "root", "para_xml");
 if ($conexion->connect_errno) {
     echo "Fallo al conectar a MySQL: (" . $conexion->connect_errno . ") " . $conexion->connect_error;
 }
+
 $xml = new DOMDocument('1.0', 'UTF-8');
 $xml->formatOutput = true;
 

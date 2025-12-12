@@ -15,22 +15,22 @@ echo "✓ Conexión a MySQL establecida.<br>";
 
 // Verificar si la base de datos existe
 echo "Verificando base de datos...<br>";
-$result = $conexion->query("SHOW DATABASES LIKE 'prueba_xml");
+$result = $conexion->query("SHOW DATABASES LIKE 'nuevo_prueba_xml'");
 if ($result->num_rows == 0) {
     // Crear la base de datos si no existe con el collation correcto
-    $sqlCrearDB = "CREATE DATABASE prueba_xml CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish2_ci";
+    $sqlCrearDB = "CREATE DATABASE nuevo_prueba_xml CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish2_ci";
     
     if ($conexion->query($sqlCrearDB) === TRUE) {
-        echo "✓ Base de datos 'prueba_xml' creada exitosamente.<br>";
+        echo "✓ Base de datos 'nuevo_prueba_xml' creada exitosamente.<br>";
     } else {
         die("✗ Error al crear la base de datos: " . $conexion->error);
     }
 } else {
-    echo "✓ Base de datos 'prueba_xml' ya existe.<br>";
+    echo "✓ Base de datos 'nuevo_prueba_xml' ya existe.<br>";
 }
 
 // Seleccionar la base de datos
-$conexion->select_db("prueba_xml");
+$conexion->select_db("nuevo_prueba_xml");
 
 // Establecer el conjunto de caracteres a utf8mb4
 $conexion->set_charset("utf8mb4");
